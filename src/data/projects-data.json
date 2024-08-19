@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "Planet Nine",
+      "stack": "Unreal Engine, C++",
+      "description": "Planet Nine is an atmospheric, first-person puzzle game set in a factory on an abandoned mining planet. The planet has been overwhelmed by a photosensitive toxin and the light is the only means of safety. Players must use their wits and the light to solve complex puzzles and escape the planet…",
+      "link": "https://teamnova1.itch.io/planet-nine"
+    },
+    {
+      "name": "Fly High Fishing",
+      "stack": "Unity, C#",
+      "description": "Fly High Fishing” is a VR fantasy bow-fishing game set within a hot air balloon high above the clouds. The player's task is to catch as many fish as they can with their bow & arrow before the timer runs out.",
+      "link": "https://flyhighfishing.itch.io/fly-high-fishing"
+    },
+    {
+      "name": "Rust To Dust",
+      "stack": "Unity, C#",
+      "description": "Rust to Dust is an action FPS set in a fictional steampunk recreation of the American Western Frontier in the 1800s. Players will shoot their way through an industrialised Wild West, fighting off hordes of robotic humanoid enemies, relying on unique weapon augmentations and their own skill to come out on top.",
+      "link": "https://groupuno.itch.io/rust-to-dust"
+    },
+    {
+      "name": "Morse Code Translator",
+      "stack": "HTML, SCSS, JavaScript",
+      "description": "A Webpage which allows for the translation of English to Morse Code and vise versa",
+      "link": "https://github.com/Avocado955/morseCode-translator"
+    },
+    {
+      "name": "Google Books Search Engine",
+      "stack": "React, SCSS, JavaScript",
+      "description": "A webpage which acts as a search engine for the Google Books API",
+      "link": "https://github.com/Avocado955/API-Search-Engine"
+    },
+    {
+      "name": "E-Commerce Shop Front",
+      "stack": "React, SCSS, JavaScript, Firebase",
+      "description": "A webpage which acts as a basic E-Commerce store front using a Firebase backend for storing products",
+      "link": "https://github.com/Avocado955/e-shop"
+    }
+  ]
+}

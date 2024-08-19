@@ -33,3 +33,11 @@ function App() {
 }
 
 export default App
+
+// template for Project Data
+// {
+//   "name": "",
+//   "stack": "",
+//   "description": "",
+//   "link": ""
+// },
