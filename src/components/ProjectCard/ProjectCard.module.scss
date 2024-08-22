@@ -1,2 +1,14 @@
 @use "../../partials/mixins.scss" as m;
 @use "../../partials/variables.scss" as v;
+
+.card {
+  @include m.displayFlex(column, flex-start, flex-start, nowrap);
+  width: 800px;
+
+  border: 2px white solid;
+
+}
+
+.link {
+  color: rgb(52, 92, 224);
+}
