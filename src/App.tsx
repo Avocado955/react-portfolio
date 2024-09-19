@@ -1,14 +1,13 @@
-import data from './data/projects-data.json';
-import './App.css'
-import ProjectCard from './components/ProjectCard/ProjectCard';
+
+import styles from "./App.module.scss";
+import { ProjectsGrid } from "./containers/ProjectsGrid/ProjectsGrid";
 
 function App() {
-console.log(data);
   return (
-    <>
+    <div className={styles.app}>
     <h1>Main Heading</h1>
-    {data.projects.map((project) => (<ProjectCard project={project} key={project.name} />))}
-    </>
+    <ProjectsGrid />
+    </div>
   )
 }
 

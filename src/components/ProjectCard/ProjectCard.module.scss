@@ -3,12 +3,18 @@
 
 .card {
   @include m.displayFlex(column, flex-start, flex-start, nowrap);
-  width: 800px;
-
-  border: 2px white solid;
-
+  width: 600px;
+  min-width: 200px;
+  padding: 1rem;
+  border-radius: v.$borderRadius;
+  box-shadow: v.$shadowBox;
+  background-color: white;
 }
 
 .link {
-  color: rgb(52, 92, 224);
+  color: v.$linkDefault;
+  &:hover {
+    color: v.$linkHovered;
+    cursor: pointer;
+  }
 }

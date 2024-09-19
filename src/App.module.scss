@@ -1,0 +1,9 @@
+@use "./partials/variables.scss" as v;
+@use "./partials/mixins.scss" as m;
+
+.app {
+  @include m.displayFlex(column, flex-start, center, nowrap);
+  width: 100vw;
+  margin: 0 auto;
+  background-color: v.$powderBlue;
+}
