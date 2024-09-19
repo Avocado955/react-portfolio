@@ -1,11 +1,12 @@
 
 import styles from "./App.module.scss";
+import Title from "./components/Title/Title";
 import { ProjectsGrid } from "./containers/ProjectsGrid/ProjectsGrid";
 
 function App() {
   return (
     <div className={styles.app}>
-    <h1>Main Heading</h1>
+    <Title />
     <ProjectsGrid />
     </div>
   )

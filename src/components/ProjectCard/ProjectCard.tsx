@@ -14,8 +14,8 @@ const ProjectCard = ({project}: ProjectCardProps) => {
   return (
     <div className={styles.card}>
       <h1>{project.name}</h1>
+      <h4>Stack: {project.stack}</h4>
       <h3>{project.description}</h3>
-      <h4>{project.stack}</h4>
       <a href={project.link} className={styles.link}>Link to Project</a>
     </div>
   )
