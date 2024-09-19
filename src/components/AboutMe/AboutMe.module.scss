@@ -1,0 +1,31 @@
+@use "../../partials/mixins.scss" as m;
+@use "../../partials/variables.scss" as v;
+
+.aboutMe {
+  @include m.displayFlex(column, flex-start, center, nowrap);
+  width: 100%;
+  background-color: v.$gunmetal;
+  color: white;
+}
+
+.row {
+  @include m.displayFlex(row, center, center, nowrap);
+  gap: 2rem;
+}
+
+.textArea {
+  width: 400px;
+}
+
+.img {
+
+}
+
+.links {
+  color: v.$linkDefault;
+
+  &:hover {
+    cursor: pointer;
+    color: v.$linkHovered;
+  }
+}
